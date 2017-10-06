@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN/EN" "http://ww.springframework.org/dtd/spring-beans.dtd">
+<beans>
+
+
+	<!-- TODO 1. Register Museum using <beans> and <bean> tag -->
+	<!-- TODO 1.a.	Use property element of bean and "name" attribute to set the property of the Museum class named name and set its value "Codington Museum" -->
+	<!-- TODO 1.b.	Use property element of bean and "type" attribute to set the property of the Museum class named type and set its value "Art and Craft"  -->
+
+	<!-- TODO  2.	Register Town bean using <beans> and <bean> tag. -->
+	<!-- TODO 2. a.	Use property element of bean and name attribute to set the property of the Town class named townName and set its value "North Town" -->
+	<!-- TODO 2.b Use constructor-arg element of bean and ref attribute to pass reference of the museum bean. -->
+
+
+</beans>

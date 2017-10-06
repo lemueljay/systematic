@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN/EN" "http://ww.springframework.org/dtd/spring-beans.dtd">
+<beans>
+
+
+	<!-- register Museum using <beans> and <bean> tag -->
+	<bean id="museum" class="com.codington.module19.Museum">
+		<property name="name">
+			<value>Codington Museum</value>
+		</property>
+		<property name="type">
+			<value>Art and Craft</value>
+		</property>
+	</bean>
+	<!-- register Town using <beans> and <bean> tag -->
+		<bean id="town" class="com.codington.module19.Town">
+		<property name="townName">
+			<value>North Town</value>
+		</property>
+		<constructor-arg ref="museum" />
+	</bean>
+</beans>
